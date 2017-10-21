@@ -13,11 +13,16 @@ public class Main extends JFrame {
     private JTextArea textArea1;
     private JTextArea textArea2;
     private JTextArea textArea3;
+    private JTextArea textArea4;
+    private JTextArea textArea5;
 
     public Main() {
 
         textArea1.setText("응축된 안토니움 갯수를 입력해주세요");
         textArea2.setText("안톤의 영혼조각 갯수를 입력해주세요");
+        textArea4.setText("항아리는 까는거 아닙니다." +
+                "\n 제가 항아리만 안깠어도 지금 자이기낀 캐릭이 2갠데");
+        textArea5.setText("제작 : SiGae");
 
         antonium.addFocusListener(new changeListener());
         soulpiece.addFocusListener(new changeListener());
